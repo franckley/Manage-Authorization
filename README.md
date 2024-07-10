@@ -44,4 +44,3 @@ The research team at my organization recently archived project_x.txt. They do no
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
-
