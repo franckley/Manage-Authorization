@@ -51,3 +51,8 @@ My organization only wants the `researcher2` user to have access to the drafts d
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
+![Screenshot (101)_proc](https://github.com/franckley/Manage-Authorization/assets/134894186/6a3f9d11-09ac-4d04-be5d-8211bdaf8d96)
+
+The output here displays the permission listing for several files and directories. Line 1 indicates the current directory (projects), and line 2 indicates the parent directory (home). Line 3 indicates a regular file titled .project_x.txt. Line 4 is the directory (drafts) with restricted permissions. Here you can see that only researcher2 has execute permissions.  It was previously determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.
+Summary
+I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the projects directory. The first step in this was using ls -la to check the permissions for the directory. This informed my decisions in the following steps. I then used the chmod command multiple times to change the permissions on files and directories.
