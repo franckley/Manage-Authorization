@@ -37,10 +37,17 @@ The following code demonstrates how I used Linux commands to do this:
 
 ![Screenshot (101)_proc](https://github.com/franckley/Manage-Authorization/assets/134894186/a3d9d90e-4c8f-4c92-9751-4ef896144eed)
 
-The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The `chmod` command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the `project_k.txt` file. After this, I used `ls -la` to review the updates I made.
+The first four lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The `chmod` command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the `project_k.txt` file. After this, I used `ls -la` to review the updates I made.
 
 ## Change file permissions on a hidden file
 The research team at my organization recently archived project_x.txt. They do not want anyone to have write access to this project, but the user and group should have read access. 
+
+The following code demonstrates how I used Linux commands to change the permissions:
+
+![Screenshot (101)_proc](https://github.com/franckley/Manage-Authorization/assets/134894186/5790f94f-2a01-41be-af18-1a1d2f0e3379)
+
+## Change directory permissions
+My organization only wants the `researcher2` user to have access to the drafts directory and its contents. This means that no one other than `researcher2` should have execute permissions.
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
