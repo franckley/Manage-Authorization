@@ -31,6 +31,8 @@ For example, the file permissions for `project_t.txt` are `-rw-rw-r--`. Since th
 ## Change file permissions
 The organization determined that other shouldn't have write access to any of their files. To
 comply with this, I referred to the file permissions that I previously returned. I determined
-'project_k.txt' must have the write access removed for other.
+`project_k.txt` must have the write access removed for other.
 
 The following code demonstrates how I used Linux commands to do this:
+
+![Screenshot (101)_proc](https://github.com/franckley/Manage-Authorization/assets/134894186/a3d9d90e-4c8f-4c92-9751-4ef896144eed)
