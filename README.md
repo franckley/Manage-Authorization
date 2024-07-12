@@ -10,6 +10,7 @@ their system secure. To complete this task, I have performed the following tasks
 The following code demonstrates how I used Linux commands to determine the existing permissions set for a specific directory in the file system.
 
 ![Screenshot (101)_proc](https://github.com/franckley/Manage-Authorization/assets/134894186/cfaf8b3e-615f-40a4-b598-3e6ff83e9e37)
+
 The third line of the screenshot displays a command I entered, and the other lines that follow, display its
 output. The code lists all contents of the projects directory. I used the ls command with the
 -la option to display a detailed listing of the file contents that also returned hidden files. The
